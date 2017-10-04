@@ -5,7 +5,7 @@ fs = require('fs');
 var app = express();
 var staticRoot = __dirname + '/';
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 80));
 
 app.use(express.static(staticRoot));
 
